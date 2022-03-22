@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+  margin: 0;
+}
+.usualText{
+  font-family:roboto,sans-serif;
+  font-size:30px
+}
+
+
+
+
+.widgetContainer{
+  overflow: hidden;
+}
+.widgetDiv{
+  width: 350px;
+  height: 140px;
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+  border-radius: 5px;
+  animation-name: widget;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+  overflow: hidden;
+  background-color: rgba(243, 243, 243, 0.788);
+}
+@keyframes widget {
+  from {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    
+    
+  }
+  to{
+    width: 350px;
+    height: 140px;
+    border-radius: 5px;
+    
+  }
+}
+.circle{
+  background-color: #395f8c;
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+  
+}
+.circleAnim{
+  background-color: #395f8c;
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+  animation-name: circle;
+  animation-duration: 0.5s;
+  animation-iteration-count: 1;
+}
+@keyframes circle {
+  from{
+    width: 350px;
+    height: 140px;
+    border-radius: 5px;
+  }
+  to {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+  }
+}
+.messageText{
+  font-size:18px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.headerMessage{
+  display: flex;
+  height:20px;
+  overflow: hidden;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #395f8c;
+}
