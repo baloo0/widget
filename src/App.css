@@ -22,7 +22,7 @@ body{
   right: 15px;
   border-radius: 5px;
   animation-name: widget;
-  animation-duration: 1s;
+  animation-duration: 0.5s;
   animation-iteration-count: 1;
   overflow: hidden;
   background-color: rgba(243, 243, 243, 0.788);
